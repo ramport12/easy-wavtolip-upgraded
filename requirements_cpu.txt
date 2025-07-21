@@ -1,0 +1,52 @@
+# Easy-Wav2Lip CPU-Optimized Requirements
+# Lightweight version for CPU-only inference
+
+# Core dependencies - CPU versions
+torch>=1.11.0+cpu --index-url https://download.pytorch.org/whl/cpu
+torchaudio>=0.11.0+cpu --index-url https://download.pytorch.org/whl/cpu  
+torchvision>=0.12.0+cpu --index-url https://download.pytorch.org/whl/cpu
+
+# Essential packages
+numpy>=1.21.0,<1.25.0
+opencv-python>=4.5.0
+Pillow>=9.0.0
+scipy>=1.9.0
+tqdm>=4.64.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+lws>=1.2.7
+
+# Face detection and processing  
+dlib>=19.24.0
+mediapipe>=0.10.0
+
+# Image/video processing
+imageio-ffmpeg>=0.4.8
+moviepy>=1.0.3
+scikit-image>=0.20.0
+
+# Face enhancement - CPU versions
+basicsr>=1.4.2
+facexlib>=0.3.0
+gfpgan>=1.3.8
+
+# Batch processing
+batch-face>=1.3.0
+
+# Utilities
+gdown>=4.7.1
+requests>=2.31.0
+packaging>=21.0
+typing-extensions>=4.0.0
+
+# GUI (optional)
+tkinter  # Usually built-in
+
+# Development tools
+ipython>=8.0.0
+
+# Additional stability
+setuptools>=65.0.0
+wheel>=0.40.0
